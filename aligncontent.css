@@ -1,0 +1,22 @@
+.container {
+	width: 600px;
+	border: 5px solid black;
+	margin: 30px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	
+}
+
+.container div {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	margin: 2px;
+} 
+
+.container div.lima{
+	width: 200px;
+}
